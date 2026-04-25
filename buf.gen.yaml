@@ -2,5 +2,6 @@ version: v2
 plugins:
   - remote: buf.build/community/scalapb-scala
     out: gen
+    opt: grpc
   - remote: buf.build/community/scalapb-zio-grpc
     out: gen
