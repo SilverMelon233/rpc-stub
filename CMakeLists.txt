@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(demo_stub VERSION 0.1.0)
+find_package(Protobuf REQUIRED)
+find_package(gRPC REQUIRED)
+add_library(demo_stub src/v1.pb.cc src/v1.grpc.pb.cc)
+target_include_directories(demo_stub PUBLIC include)
+target_link_libraries(demo_stub PUBLIC gRPC::grpc++ protobuf::libprotobuf)
