@@ -1,0 +1,7 @@
+version: v2
+plugins:
+  - local: protoc-gen-elixir
+    out: gen
+    opt:
+      - grpc=true
+      - include_docs=true
