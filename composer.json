@@ -1,0 +1,14 @@
+{
+  "name": "silvermelos233/rpc-demo-stub",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "gen/Demo/",
+      "GPBMetadata\\": "gen/GPBMetadata/"
+    }
+  },
+  "require": {
+    "grpc/grpc": "^1.57",
+    "google/protobuf": "^3.25"
+  }
+}
