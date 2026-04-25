@@ -1,0 +1,18 @@
+{
+  "name": "@silvermelon233/rpc-demo-stub",
+  "version": "0.3.0",
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".":                    "./gen/demo/v1.ts",
+    "./client":             "./gen/demo/v1.client.ts",
+    "./grpc-server":        "./gen/demo/v1.grpc-server.ts",
+    "./google/protobuf/empty": "./gen/google/protobuf/empty.ts"
+  },
+  "files": ["gen/"],
+  "dependencies": {
+    "@protobuf-ts/runtime":     "^2.11.1",
+    "@protobuf-ts/runtime-rpc": "^2.11.1",
+    "@grpc/grpc-js":            "^1.13.0"
+  }
+}
