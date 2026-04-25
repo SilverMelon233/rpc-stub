@@ -4,5 +4,7 @@ plugins:
     out: gen
   - remote: buf.build/protocolbuffers/kotlin
     out: gen
+  - remote: buf.build/grpc/java
+    out: gen
   - remote: buf.build/grpc/kotlin
     out: gen
