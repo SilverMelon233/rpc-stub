@@ -3,5 +3,4 @@ plugins:
   - local: protoc-gen-elixir
     out: gen
     opt:
-      - grpc=true
-      - include_docs=true
+      - plugins=grpc
