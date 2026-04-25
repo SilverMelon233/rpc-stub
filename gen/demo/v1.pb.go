@@ -209,8 +209,8 @@ const file_demo_v1_proto_rawDesc = "" +
 	"\x06status\x18\x01 \x01(\tR\x06status2}\n" +
 	"\vDemoService\x123\n" +
 	"\x04Echo\x12\x14.demo.v1.EchoRequest\x1a\x15.demo.v1.EchoResponse\x129\n" +
-	"\x06Health\x12\x16.google.protobuf.Empty\x1a\x17.demo.v1.HealthResponseB\x8a\x01\n" +
-	"\vcom.demo.v1B\aV1ProtoP\x01Z5github.com/SilverMelon233/rpc-stub/golang/demo;demov1\xa2\x02\x03DXX\xaa\x02\aDemo.V1\xca\x02\aDemo\\V1\xe2\x02\x13Demo\\V1\\GPBMetadata\xea\x02\bDemo::V1b\x06proto3"
+	"\x06Health\x12\x16.google.protobuf.Empty\x1a\x17.demo.v1.HealthResponseB\x83\x01\n" +
+	"\vcom.demo.v1B\aV1ProtoP\x01Z.github.com/SilverMelon233/rpc-stub/demo;demov1\xa2\x02\x03DXX\xaa\x02\aDemo.V1\xca\x02\aDemo\\V1\xe2\x02\x13Demo\\V1\\GPBMetadata\xea\x02\bDemo::V1b\x06proto3"
 
 var (
 	file_demo_v1_proto_rawDescOnce sync.Once

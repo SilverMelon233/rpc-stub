@@ -1,4 +1,4 @@
-module github.com/SilverMelon233/rpc-stub/golang
+module github.com/SilverMelon233/rpc-stub
 
 go 1.24
 
